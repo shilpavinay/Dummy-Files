@@ -17,7 +17,7 @@ They can accordingly manipulate the business strategy to meet the demand levels 
 7.Residual Analysis of the train data 
 8.Making predictions using final model 
 9.Model Evaluation
-**Steps performed: **
+**Steps performed:**
 **Step 1: Reading and Understanding the Data**
 Data Quality Check - Checking for NULL/MISSING values & Finding Duplicate values
 Inference : 1. No missing/NULL values found - Data looks good for our analysis. Please refer analysis below for details.
