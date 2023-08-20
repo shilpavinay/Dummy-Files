@@ -1,11 +1,13 @@
-Bike Sharing Case Study
-Business Goal: 
+**Bike Sharing Case Study**
+
+**Business Goal:** 
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 Problem Statement: A US bike-sharing provider Boom Bikes has recently suffered considerable dips in their revenues. They have contracted a consulting company to understand the factors on which the demand for these shared bikes depends. Specifically, they want to understand the factors affecting the demand for these shared bikes in the American market. The company wants to know: Which variables are significant in predicting the demand for shared bikes.
 How well those variables describe the bike demands.
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features.
 They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
-Steps for Model Building 
+
+**Steps for Model Building **
 1.Reading and Understanding Data 
 2.Visualising the Data 
 3.Data Preparation 
@@ -15,7 +17,8 @@ Steps for Model Building
 7.Residual Analysis of the train data 
 8.Making predictions using final model 
 9.Model Evaluation
-Steps performed: Step 1: Reading and Understanding the Data
+**Steps performed: **
+**Step 1: Reading and Understanding the Data**
 Data Quality Check - Checking for NULL/MISSING values & Finding Duplicate values
 Inference : 1. No missing/NULL values found - Data looks good for our analysis. Please refer analysis below for details.
 Inference : 2. Duplicate values are not present - Data looks good for our analysis. Please refer analysis below for details.
@@ -26,7 +29,8 @@ o	Based on the high-level look at the data and the data dictionary, the followin
 o	instant: Its only an index value, we have a default index for the same purpose.
 o	dteday : This has the date, Since we already have separate columns for 'year' & 'month’, hence, we can carry out our analysis without this column.
 •	casual & registered: Both these columns contain the count of bike booked by different categories of customers. Since our objective is to find the total count of bikes and not by specific category, we will ignore these two columns.
-Step 2: Visualising the Data - Numerical & Categorical Variables
+
+**Step 2: Visualising the Data - Numerical & Categorical Variables**
 •	By visualising the numeric variables, there are some independent variables like atemp , temp etc. that show a positive correlation with the target variable cnt. We can conclude that a linear model can be considered in this case.
 •	The variable season’s category 3 (Fall) has the highest median, which shows that the demand was high during this season. It is least for 1 (spring). So, the count of bike sharing is least for spring and high in fall.              
 •	During the year 2019, number of bikes shared are higher as there is a high count of users as compared to the year 2018              
